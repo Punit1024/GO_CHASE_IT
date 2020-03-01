@@ -1,6 +1,8 @@
 # GO_CHASE_IT_my_robot
 The Gazebo world package a part of GO_CHASE_IT project - A ball chasing robot in Gazebo using ROS
 
+Please refer `README.md` from [ball_chaser](https://github.com/Punit1024/ball_chaser) for complete direction on running the Go_chase_it project.
+
 ## How to Launch the simulation?
 
 #### Create a catkin_ws, feel free to skip if you already have one!
@@ -41,7 +43,7 @@ $ roslaunch my_robot world.launch
 ```
 
 #### How to command robot ?
-the skid steer gazebo plugin in the robot subscribses to following topic:
+The skid steer gazebo plugin in the robot subscribses to following topic:
 ```sh
 /cmd_vel
 ```
