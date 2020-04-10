@@ -1,0 +1,7 @@
+<launch>
+<!-- The look away node -->
+  <node name="drive_bot" type="drive_bot" pkg="ball_chaser" output="screen"/>
+<!-- The look away node -->
+  <node name="process_image" type="process_image" pkg="ball_chaser" output="screen"/>
+
+</launch>
